@@ -12,7 +12,6 @@ word = string
     "at" => "@",
     "and" => "&"
 end
-end
 
 def word_substituter(tweet)
   
