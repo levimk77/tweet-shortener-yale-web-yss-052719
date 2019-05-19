@@ -19,4 +19,4 @@ end
 
 def word_substituter(string)
   tweet = string.split(" ")
-  
+  string.collect do |word|
