@@ -15,7 +15,7 @@ elsif word == "at"
 elsif word == "and"
 "&"
 end
-end
+
 
 def word_substituter(tweet)
   
