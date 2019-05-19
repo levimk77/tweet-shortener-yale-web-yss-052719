@@ -18,4 +18,5 @@ end
 
 
 def word_substituter(string)
+  words = string.split(" ")
   
