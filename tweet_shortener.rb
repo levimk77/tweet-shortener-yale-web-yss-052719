@@ -1,19 +1,16 @@
 def dictionary(string)
 word = string
-if word == "hello"
-"hi"
-elsif word == "to" || word == "two" || word == "too"
-"2"
-elsif word == "for" || word == "four"
-"4"
-elsif word == "be"
-"b"
-elsif word == "you"
-"u"
-elsif word == "at"
-"@"
-elsif word == "and"
-"&"
+"hello" => "hi",
+    "to" => "2",
+    "two" => "2",
+    "too" => "2",
+    "for" => "4",
+    "For" => "4",
+    "four" => "4",
+    "be" => "b",
+    "you" => "u",
+    "at" => "@",
+    "and" => "&"
 end
 end
 
