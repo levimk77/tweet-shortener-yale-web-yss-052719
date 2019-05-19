@@ -14,9 +14,14 @@ elsif word == "at"
 "@"
 elsif word == "and"
 "&"
+else
+word
 end
 
 
 def word_substituter(string)
   tweet = string.split(" ")
   string.collect do |word|
+    word.dictionary
+end
+    
